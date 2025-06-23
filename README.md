@@ -23,8 +23,8 @@ This is a personal portfolio website designed to showcase projects, skills, and 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Kishanx08/myshit-2.0.git
-   cd myshit-2.0
+   git clone https://github.com/Kishanx08/Portfolio-Website---KishanX08
+   cd Portfolio-Website---KishanX08
    ```
 
 2. **Open the website**
