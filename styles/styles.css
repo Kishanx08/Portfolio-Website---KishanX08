@@ -394,11 +394,10 @@ nav {
         padding: 0.35rem 0.02rem 0.35rem 0.02rem;
     }
     .matrix-timeline {
-        gap: 0.7rem;
-        margin-bottom: 0.7rem;
+        gap: 1.7rem !important;
     }
     .matrix-timeline-row {
-        gap: 0.13rem;
+        margin-bottom: 1.7rem !important;
     }
     .matrix-timeline-content {
         font-size: 0.85rem;
@@ -408,10 +407,12 @@ nav {
     .matrix-timeline-title {
         font-size: 0.85rem;
         margin-bottom: 0.08rem;
+        padding-left: 1.1em;
     }
     .matrix-timeline-price {
         font-size: 0.85rem;
         margin-bottom: 0.13rem;
+        padding-left: 1.1em;
     }
     .matrix-timeline-features li {
         font-size: 0.85rem;
@@ -426,6 +427,19 @@ nav {
         font-size: 0.89rem;
         padding: 0.5rem 0.7rem;
         border-radius: 0.9rem;
+    }
+    .matrix-timeline-features li {
+        position: relative;
+        padding-left: 1.1em;
+    }
+    .matrix-timeline-features li::before {
+        content: '\2022'; /* Unicode bullet • */
+        position: absolute;
+        left: 0;
+        color: #fff;
+        font-size: 1em;
+        line-height: 1;
+        top: 0.1em;
     }
 }
 
@@ -1000,6 +1014,7 @@ section {
     margin-top: 0.22rem;
     flex-shrink: 0;
     border: 2px solid #222;
+    margin-right: -0.5rem;
 }
 .matrix-timeline-dot-popular {
     background: #fff;
@@ -1043,25 +1058,13 @@ section {
 }
 .matrix-timeline-features {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding-left: 0;
 }
 .matrix-timeline-features li {
-    color: #e0e0e0;
-    font-size: 1.01rem;
-    margin-bottom: 0.32rem;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding-left: 1.05rem;
+    list-style: none;
 }
 .matrix-timeline-features li::before {
-    content: '▸';
-    color: #fff;
-    font-size: 1.06rem;
-    position: absolute;
-    left: 0;
-    top: 0;
+    content: none !important;
 }
 .matrix-terminal-footer {
     display: flex;
@@ -1070,13 +1073,13 @@ section {
 }
 .matrix-terminal-btn {
     display: inline-block;
-    padding: 1.1rem 2.5rem;
+    padding: 1.1rem 2.0rem;
     background: #fff;
     color: #181818;
     font-weight: 700;
     border: 2.5px solid #181818;
     border-radius: 2rem;
-    font-size: 1.15rem;
+    font-size: 0.98rem;
     text-decoration: none !important;
     font-family: inherit;
     box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10), 0 1.5px 8px 0 rgba(0,0,0,0.18);
@@ -1084,6 +1087,7 @@ section {
     position: relative;
     overflow: hidden;
     letter-spacing: 0.5px;
+    margin-top: -0.7rem;
 }
 .matrix-terminal-btn:hover {
     background: #181818;
@@ -1106,11 +1110,10 @@ section {
         padding: 0.35rem 0.02rem 0.35rem 0.02rem;
     }
     .matrix-timeline {
-        gap: 0.7rem;
-        margin-bottom: 0.7rem;
+        gap: 1.7rem !important;
     }
     .matrix-timeline-row {
-        gap: 0.13rem;
+        margin-bottom: 1.7rem !important;
     }
     .matrix-timeline-content {
         font-size: 0.85rem;
@@ -1120,10 +1123,12 @@ section {
     .matrix-timeline-title {
         font-size: 0.85rem;
         margin-bottom: 0.08rem;
+        padding-left: 1.1em;
     }
     .matrix-timeline-price {
         font-size: 0.85rem;
         margin-bottom: 0.13rem;
+        padding-left: 1.1em;
     }
     .matrix-timeline-features li {
         font-size: 0.85rem;
@@ -1138,6 +1143,19 @@ section {
         font-size: 0.89rem;
         padding: 0.5rem 0.7rem;
         border-radius: 0.9rem;
+    }
+    .matrix-timeline-features li {
+        position: relative;
+        padding-left: 1.1em;
+    }
+    .matrix-timeline-features li::before {
+        content: '\2022'; /* Unicode bullet • */
+        position: absolute;
+        left: 0;
+        color: #fff;
+        font-size: 1em;
+        line-height: 1;
+        top: 0.1em;
     }
 }
 
