@@ -373,13 +373,60 @@ nav {
   .hero-main-cta {
     flex-direction: column;
     gap: 1.1rem;
+    width: auto;
+    align-items: center;
+    padding: 0;
   }
   .hero-main-btn {
-    width: 100%;
+    width: auto;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.7rem 1.7rem;
     font-size: 1rem;
+    min-width: 0;
+    box-sizing: border-box;
+    border-radius: 2rem;
   }
+}
+
+@media (max-width: 600px) {
+    .matrix-terminal {
+        max-width: 99vw;
+        padding: 0.35rem 0.02rem 0.35rem 0.02rem;
+    }
+    .matrix-timeline {
+        gap: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+    .matrix-timeline-row {
+        gap: 0.13rem;
+    }
+    .matrix-timeline-content {
+        font-size: 0.85rem;
+        padding: 0.28rem 0.18rem 0.28rem 0.28rem;
+        border-radius: 7px;
+    }
+    .matrix-timeline-title {
+        font-size: 0.85rem;
+        margin-bottom: 0.08rem;
+    }
+    .matrix-timeline-price {
+        font-size: 0.85rem;
+        margin-bottom: 0.13rem;
+    }
+    .matrix-timeline-features li {
+        font-size: 0.85rem;
+        margin-bottom: 0.09rem;
+        padding-left: 0.45rem;
+    }
+    .matrix-terminal-header {
+        font-size: 0.85rem;
+        margin-bottom: 0.35rem;
+    }
+    .matrix-terminal-btn {
+        font-size: 0.89rem;
+        padding: 0.5rem 0.7rem;
+        border-radius: 0.9rem;
+    }
 }
 
 /* Section Styles */
@@ -1056,18 +1103,43 @@ section {
 @media (max-width: 600px) {
     .matrix-terminal {
         max-width: 99vw;
+        padding: 0.35rem 0.02rem 0.35rem 0.02rem;
+    }
+    .matrix-timeline {
+        gap: 0.7rem;
+        margin-bottom: 0.7rem;
     }
     .matrix-timeline-row {
-        gap: 0.5rem;
+        gap: 0.13rem;
     }
     .matrix-timeline-content {
-        font-size: 0.99rem;
+        font-size: 0.85rem;
+        padding: 0.28rem 0.18rem 0.28rem 0.28rem;
+        border-radius: 7px;
     }
     .matrix-timeline-title {
-        font-size: 1.01rem;
+        font-size: 0.85rem;
+        margin-bottom: 0.08rem;
+    }
+    .matrix-timeline-price {
+        font-size: 0.85rem;
+        margin-bottom: 0.13rem;
+    }
+    .matrix-timeline-features li {
+        font-size: 0.85rem;
+        margin-bottom: 0.09rem;
+        padding-left: 0.45rem;
+    }
+    .matrix-terminal-header {
+        font-size: 0.85rem;
+        margin-bottom: 0.35rem;
+    }
+    .matrix-terminal-btn {
+        font-size: 0.89rem;
+        padding: 0.5rem 0.7rem;
+        border-radius: 0.9rem;
     }
 }
-/* --- END MATRIX TERMINAL PRICING TIMELINE (BLACK & WHITE VARIANT, SLIGHTLY LARGER) --- */
 
 /* Remove old pricing card styles */
 .pricing-cards-container, .pricing-card, .pricing-title, .pricing-subtitle, .pricing-price, .pricing-features, .pricing-btn, .popular, .popular-badge {
