@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <div class="top-shadow-overlay"></div>
     <div class="grid-background"></div>
     <div class="animated-grid"></div>
     <div class="particles-container"></div>
     
+    <!--
     <nav>
         <div class="nav-container">
             <div class="logo">Harry.Dev</div>
@@ -23,28 +25,18 @@
             </ul>
         </div>
     </nav>
+    -->
 
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-title" data-text="Harry.Dev">Harry.Dev</div>
-            <div class="hero-subtitle">Premium Web Developer</div>
-            <div class="hero-special">Discord Bot Specialist</div>
-            <div class="hero-features">
-                <div class="hero-feature-card">
-                    <div class="hero-feature-icon">🌐</div>
-                    <div class="hero-feature-label">Web Dev</div>
-                </div>
-                <div class="hero-feature-card">
-                    <div class="hero-feature-icon">🤖</div>
-                    <div class="hero-feature-label">Discord Bots</div>
-                </div>
-                <div class="hero-feature-card">
-                    <div class="hero-feature-icon">&lt;/&gt;</div>
-                    <div class="hero-feature-label">Full Stack</div>
-                </div>
+            <div class="hero-main-subtitle">Web Development & Video Editing</div>
+            <div class="hero-main-desc">
+                Where code meets creativity. I craft immersive web experiences and stunning visual narratives that push the boundaries of digital art.
             </div>
-            <div class="hero-cta">
-                <a href="#projects" class="hero-cta-btn">View My Work</a>
+            <div class="hero-main-cta">
+                <a href="#projects" class="hero-main-btn hero-main-btn-primary">Explore My Work</a>
+                <a href="#contact" class="hero-main-btn hero-main-btn-outline">Get In Touch</a>
             </div>
         </div>
     </section>
@@ -58,6 +50,7 @@
                 <p>My development journey spans across frontend frameworks, backend systems, and database management, allowing me to create comprehensive digital solutions from concept to deployment.</p>
                 
                 <div class="skills">
+                    <span class="skill-tag">HTML/CSS</span>
                     <span class="skill-tag">React.js</span>
                     <span class="skill-tag">Node.js</span>
                     <span class="skill-tag">JavaScript/TypeScript</span>
@@ -75,12 +68,12 @@
                 <div style="background: linear-gradient(45deg, rgba(0,255,255,0.1), rgba(0,128,255,0.1)); border: 1px solid rgba(0,255,255,0.3); border-radius: 15px; padding: 2rem; text-align: center;">
                     <h3 style="color: #00ffff; margin-bottom: 1rem;">Expertise Areas</h3>
                     <ul style="list-style: none; color: #cccccc;">
-                        <li>🚀 Full Stack Web Development</li>
-                        <li>🎬 Professional Video Editing</li>
-                        <li>🤖 Discord Bot Development</li>
-                        <li>💾 Database Architecture</li>
-                        <li>🎮 Gaming Platform Integration</li>
-                        <li>📊 Advanced Dashboard Systems</li>
+                        <li> • Full Stack Web Development</li>
+                        <li> • Professional Video Editing</li>
+                        <li> • Discord Bot Development</li>
+                        <li> • Database Architecture</li>
+                        <li> • Gaming Platform Integration</li>
+                        <li> • Advanced Dashboard Systems</li>
                     </ul>
                 </div>
             </div>
@@ -89,103 +82,98 @@
 
     <section id="projects" class="fade-in">
         <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-carousel">
-            <div class="projects-track" id="projectsTrack">
-                <div class="project-slide">
-                    <div class="project-preview">
-                        <iframe src="https://www.luckyrollerreward.com/" title="Lucky Roller Reward Preview"></iframe>
-                    </div>
-                    <div class="project-info">
-                        <h3>🎰 Lucky Roller Reward</h3>
-                        <p>A comprehensive leaderboard platform that tracks and ranks users based on their wagering activities. Features real-time updates, user statistics, and competitive rankings with a sleek, modern interface.</p>
-                        <div class="project-tech">React.js • Node.js • PostgreSQL • WebSockets</div>
-                        <a href="https://www.luckyrollerreward.com/" target="_blank" class="project-link">Visit Site</a>
-                    </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://i.ibb.co/Y7TSwqzF/i7-OVOHBXv-O.png" alt="Lucky Roller Reward Preview" />
                 </div>
-                
-                <div class="project-slide">
-                    <div class="project-preview">
-                        <iframe src="https://prs-stock.x02.me/" title="RVM Stock Catalog Preview"></iframe>
-                    </div>
-                    <div class="project-info">
-                        <h3>🚗 RVM Stock Catalog</h3>
-                        <p>An advanced GTA-5 RP FiveM vehicle catalog system featuring a sophisticated dashboard and integrated billing system. Streamlines vehicle management with comprehensive admin controls and user-friendly interfaces.</p>
-                        <div class="project-tech">React.js • Node.js • Express • Dashboard UI • Payment Integration</div>
-                        <a href="https://prs-stock.x02.me/" target="_blank" class="project-link">Visit Site</a>
-                    </div>
-                </div>
-                
-                <div class="project-slide">
-                    <div class="project-preview">
-                        <img src="https://i.postimg.cc/Vvm7r2J9/image.png" alt="Discord Bot Preview" style="width:100%;height:100%;object-fit:cover;display:block;background:#181e25;border-radius:10px;" />
-                    </div>
-                    <div class="project-info">
-                        <h3>🤖 Paleto Repairs Discord Bot</h3>
-                        <p>A fully customized Discord bot designed for tracking application forms, managing billing systems, and automating community workflows. Features advanced form handling, payment tracking, and comprehensive administrative tools.</p>
-                        <div class="project-tech">Discord.js • Node.js • Database Integration • Form Management</div>
-                        <div class="project-link" style="cursor: default; background: rgba(0,255,255,0.1);">Custom Bot Solution</div>
-                    </div>
+                <div class="project-details">
+                    <h3>🎰 Lucky Roller Reward</h3>
+                    <p>A comprehensive leaderboard platform that tracks and ranks users based on their wagering activities. Features real-time updates, user statistics, and competitive rankings with a sleek, modern interface.</p>
+                    <div class="project-tech">HTML • CSS • JavaScript • Tailwind CSS • Node.js</div>
+                    <a href="https://www.luckyrollerreward.com/" target="_blank" class="project-link">Visit Site</a>
                 </div>
             </div>
-        </div>
-        
-        <div class="carousel-controls">
-            <button class="carousel-btn" onclick="changeSlide(-1)">‹</button>
-            <button class="carousel-btn" onclick="changeSlide(1)">›</button>
-        </div>
-        
-        <div class="carousel-indicators">
-            <span class="indicator active" onclick="goToSlide(0)"></span>
-            <span class="indicator" onclick="goToSlide(1)"></span>
-            <span class="indicator" onclick="goToSlide(2)"></span>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://i.ibb.co/Wv0TD5jj/Sq-Iu-Dwvsn-P.png" alt="RVM Stock Catalog Preview" />
+                </div>
+                <div class="project-details">
+                    <h3>🚗 RVM Stock Catalog</h3>
+                    <p>An advanced GTA-5 RP FiveM vehicle catalog system featuring a sophisticated dashboard and integrated billing system. Streamlines vehicle management with comprehensive admin controls and user-friendly interfaces.</p>
+                    <div class="project-tech">HTML • CSS • JavaScript • Tailwind CSS • Node.js • Express • MongoDB</div>
+                    <a href="https://prs-stock.x02.me/" target="_blank" class="project-link">Visit Site</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://i.postimg.cc/Vvm7r2J9/image.png" alt="Discord Bot Preview" />
+                </div>
+                <div class="project-details">
+                    <h3>🤖 Paleto Repairs Discord Bot</h3>
+                    <p>A fully customized Discord bot designed for tracking application forms, managing billing systems, and automating community workflows. Features advanced form handling, payment tracking, and comprehensive administrative tools.</p>
+                    <div class="project-tech">Discord.js • Node.js • Database Integration • Form Management</div>
+                    <span class="project-link" style="cursor: default; background: rgba(0,255,255,0.1);">Custom Bot Solution</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="pricing" class="fade-in" style="margin-top: 2rem;">
+    <section id="pricing" class="fade-in matrix-terminal-section" style="margin-top: 2rem;">
         <h2 class="section-title">Pricing & Packages</h2>
-        <div class="pricing-cards-container">
-            <div class="pricing-card">
-                <h3 class="pricing-title">Web Application</h3>
-                <p class="pricing-subtitle">Full-stack web application development</p>
-                <div class="pricing-price">Starting at <span>$100</span></div>
-                <ul class="pricing-features">
-                    <li>Modern React/Vue.js frontend</li>
-                    <li>Node.js backend with database</li>
-                    <li>Responsive design</li>
-                    <li>API integration</li>
-                    <li>Security implementation</li>
-                    <li>Deployment & hosting setup</li>
-                </ul>
-                <a href="#contact" class="pricing-btn">Get Started</a>
+        <div class="matrix-terminal">
+            <div class="matrix-terminal-header">
+                <span class="matrix-cursor">$</span> Pricing Timeline
             </div>
-            <div class="pricing-card popular">
-                <div class="popular-badge">Most Popular</div>
-                <h3 class="pricing-title">Discord Bot Premium</h3>
-                <p class="pricing-subtitle">Advanced Discord bot with custom features</p>
-                <div class="pricing-price">Starting at <span>$65</span></div>
-                <ul class="pricing-features">
-                    <li>Custom commands & interactions</li>
-                    <li>Database integration</li>
-                    <li>Moderation features</li>
-                    <li>Leaderboard systems</li>
-                    <li>Bonus tracking</li>
-                    <li>24/7 hosting included</li>
-                </ul>
-                <a href="#contact" class="pricing-btn">Get Started</a>
+            <div class="matrix-timeline">
+                <div class="matrix-timeline-row">
+                    <div class="matrix-timeline-dot"></div>
+                    <div class="matrix-timeline-content">
+                        <div class="matrix-timeline-title">Web Application</div>
+                        <div class="matrix-timeline-price">Starting at <span>$100</span></div>
+                        <ul class="matrix-timeline-features">
+                            <li>Modern React/Vue.js frontend</li>
+                            <li>Node.js backend with database</li>
+                            <li>Responsive design</li>
+                            <li>API integration</li>
+                            <li>Security implementation</li>
+                            <li>Deployment & hosting setup</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="matrix-timeline-row matrix-timeline-row-popular">
+                    <div class="matrix-timeline-dot matrix-timeline-dot-popular"></div>
+                    <div class="matrix-timeline-content">
+                        <div class="matrix-timeline-title">Discord Bot Premium</div>
+                        <div class="matrix-timeline-price">Starting at <span>$65</span></div>
+                        <ul class="matrix-timeline-features">
+                            <li>Custom commands & interactions</li>
+                            <li>Database integration</li>
+                            <li>Moderation features</li>
+                            <li>Leaderboard systems</li>
+                            <li>Bonus tracking</li>
+                            <li>24/7 hosting included</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="matrix-timeline-row">
+                    <div class="matrix-timeline-dot"></div>
+                    <div class="matrix-timeline-content">
+                        <div class="matrix-timeline-title">Full Stack Solution</div>
+                        <div class="matrix-timeline-price">Custom Quote</div>
+                        <ul class="matrix-timeline-features">
+                            <li>Full web application</li>
+                            <li>Discord bot integration</li>
+                            <li>Unified user system</li>
+                            <li>Admin dashboard</li>
+                            <li>Analytics & reporting</li>
+                            <li>Ongoing maintenance</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="pricing-card">
-                <h3 class="pricing-title">Full Stack Solution</h3>
-                <p class="pricing-subtitle">Complete web + Discord bot package</p>
-                <div class="pricing-price">Custom Quote</div>
-                <ul class="pricing-features">
-                    <li>Full web application</li>
-                    <li>Discord bot integration</li>
-                    <li>Unified user system</li>
-                    <li>Admin dashboard</li>
-                    <li>Analytics & reporting</li>
-                    <li>Ongoing maintenance</li>
-                </ul>
-                <a href="#contact" class="pricing-btn">Get Started</a>
+            <div class="matrix-terminal-footer">
+                <a href="#" class="matrix-terminal-btn" id="openDiscordModal">Get Started</a>
             </div>
         </div>
     </section>
@@ -195,27 +183,27 @@
         <div class="process-timeline-container">
             <div class="process-timeline">
                 <div class="process-step-chart">
-                    <div class="process-step-circle">1</div>
+                    <div class="process-step-circle process-bar">|</div>
                     <div class="process-step-label">Consultation</div>
                     <div class="process-step-desc">We discuss your ideas, requirements, and vision to understand your goals.</div>
                 </div>
                 <div class="process-step-chart">
-                    <div class="process-step-circle">2</div>
+                    <div class="process-step-circle process-bar">|</div>
                     <div class="process-step-label">Planning</div>
                     <div class="process-step-desc">We create a clear roadmap, define features, and set milestones for your project.</div>
                 </div>
                 <div class="process-step-chart">
-                    <div class="process-step-circle">3</div>
+                    <div class="process-step-circle process-bar">|</div>
                     <div class="process-step-label">Development</div>
                     <div class="process-step-desc">We build your solution using modern technologies, keeping you updated throughout.</div>
                 </div>
                 <div class="process-step-chart">
-                    <div class="process-step-circle">4</div>
+                    <div class="process-step-circle process-bar">|</div>
                     <div class="process-step-label">Testing</div>
                     <div class="process-step-desc">We rigorously test for quality, security, and performance to ensure a flawless result.</div>
                 </div>
                 <div class="process-step-chart">
-                    <div class="process-step-circle">5</div>
+                    <div class="process-step-circle process-bar">|</div>
                     <div class="process-step-label">Delivery</div>
                     <div class="process-step-desc">We launch your project and provide ongoing support for your continued success.</div>
                 </div>
@@ -265,5 +253,26 @@
     </div>
 
     <script src="scripts/main.js"></script>
+    <script>
+    // Popup for matrix terminal Get Started
+    const openBtn = document.getElementById('openDiscordModal');
+    const modal = document.getElementById('modalOverlay');
+    const closeBtn = document.getElementById('modalCloseBtn');
+    if (openBtn && modal && closeBtn) {
+        openBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            modal.classList.add('active');
+        });
+        closeBtn.addEventListener('click', function() {
+            modal.classList.remove('active');
+        });
+        window.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') modal.classList.remove('active');
+        });
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) modal.classList.remove('active');
+        });
+    }
+    </script>
 </body>
 </html>
