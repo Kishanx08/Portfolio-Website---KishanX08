@@ -907,23 +907,23 @@ section {
     background: #101010;
     border-radius: 16px;
     box-shadow: 0 3px 24px 0 rgba(0,0,0,0.18);
-    max-width: 600px;
-    margin: 2.2rem auto 0 auto;
-    padding: 1.7rem 1.2rem 1.7rem 1.2rem;
+    max-width: 500px;
+    margin: 2rem auto 0 auto;
+    padding: 1.35rem 1rem 1.35rem 1rem;
     font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
     color: #fff;
     border: 1.5px solid #222;
     position: relative;
 }
 .matrix-terminal-header {
-    font-size: 1.18rem;
+    font-size: 1.09rem;
     color: #fff;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
     letter-spacing: 0.04em;
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
 }
 .matrix-cursor {
     color: #fff;
@@ -934,9 +934,9 @@ section {
 .matrix-timeline {
     display: flex;
     flex-direction: column;
-    gap: 1.7rem;
+    gap: 1.3rem;
     position: relative;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 .matrix-timeline-row {
     display: flex;
@@ -961,17 +961,17 @@ section {
 .matrix-timeline-content {
     background: #181818;
     border-radius: 10px;
-    padding: 1rem 1.3rem 1rem 1.3rem;
+    padding: 0.9rem 1.1rem 0.9rem 1.1rem;
     box-shadow: 0 1.5px 8px 0 rgba(0,0,0,0.08);
     border-left: 2.5px solid #fff;
     width: 100%;
     position: relative;
 }
 .matrix-timeline-title {
-    font-size: 1.13rem;
+    font-size: 1.07rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 0.22rem;
+    margin-bottom: 0.2rem;
     letter-spacing: 0.015em;
 }
 .matrix-popular-badge {
@@ -986,14 +986,13 @@ section {
     letter-spacing: 0.4px;
 }
 .matrix-timeline-price {
-    font-size: 1.05rem;
+    font-size: 1.01rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.32rem;
 }
 .matrix-timeline-price span {
-    color: #fff;
-    font-size: 1.13rem;
+    font-size: 1.09rem;
 }
 .matrix-timeline-features {
     list-style: none;
@@ -1003,16 +1002,16 @@ section {
 .matrix-timeline-features li {
     color: #e0e0e0;
     font-size: 1.01rem;
-    margin-bottom: 0.38rem;
+    margin-bottom: 0.32rem;
     display: flex;
     align-items: center;
     position: relative;
-    padding-left: 1.1rem;
+    padding-left: 1.05rem;
 }
 .matrix-timeline-features li::before {
     content: '▸';
     color: #fff;
-    font-size: 1.08rem;
+    font-size: 1.06rem;
     position: absolute;
     left: 0;
     top: 0;
